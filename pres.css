@@ -1,0 +1,37 @@
+.section .reveal .state-background {
+  background: red;
+} 
+
+.sub-section .reveal .state-background {
+  background: red;
+} 
+
+.small-code pre code {
+  font-size: 1em;
+}
+
+.reveal .controls div.navigate-right, 
+.reveal .controls div.navigate-right.enabled {
+    border-left-color: #000000;
+}
+
+.reveal .controls div.navigate-left, 
+.reveal .controls div.navigate-left.enabled {
+    border-right-color: #000000;
+}
+
+.reveal .controls div.navigate-left.enabled:hover {
+    border-right-color: #FFFFFF;
+}
+
+.reveal .controls div.navigate-right.enabled:hover {
+    border-left-color: #FFFFFF;
+}
+
+.reveal a:not(.image) {
+    color: black;
+}
+
+.reveal a:not(.image):hover {
+    color: white;
+}
